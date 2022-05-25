@@ -78,8 +78,6 @@ class PO5
             }
             throw new \Exception($errors_string . 'Please fix the above mentioned errors to use this PlatiOnline kit');
         }
-        self::registerAutoload('phpseclib');
-        self::registerAutoload('Curl');
     }
 
     //////////////////////////////////////////////////////////////
